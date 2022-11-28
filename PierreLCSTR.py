@@ -14,9 +14,12 @@ st.write("PS : c'est un super formateur de la Wild Code School")
 df = pd.read_csv("velib.csv")
 
 # Quasiment tous les éléments streamlit peuvent être affichés dans la "sidebar"
+with st.sidebar:
+        st.image('pierre_mur.jpg', width=300)
 st.sidebar.title("Cette Sidebar est inutile mais qu'est ce qu'elle est belle")
 st.sidebar.write("hello world")
 
+        
 option_velo = st.sidebar.selectbox(
 	    'Quel type de vélo ?',
 	    ('mechanical', 'ebike'))
