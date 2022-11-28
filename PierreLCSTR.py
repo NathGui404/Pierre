@@ -16,7 +16,6 @@ df = pd.read_csv("velib.csv")
 # Quasiment tous les éléments streamlit peuvent être affichés dans la "sidebar"
 st.sidebar.image('pierre_mur[1].jpg', width=300)
 st.sidebar.title("Cette Sidebar est inutile mais rien ne vaut une photo de Pierre Mur pour égayer votre journée de Novembre !")
-st.sidebar.image('pierre_mur.jpg', width=300)
 st.sidebar.write("Pierre Mur , formateur EMERITUS de la Wild CODE SCHOOL. Tous droits à l'image réservés tout ça !")
 
         
